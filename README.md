@@ -2,26 +2,9 @@
 
 This repository contains the implementation of our convolutional neural network (CNN) model for the automatic aesthetic assessment of artistic images. Unlike traditional models that primarily rely on large-scale photography datasets, our approach focuses on the unique challenges posed by artistic images, which are more complex, diverse, and abstract.
 
-## Overview
-
-The aesthetic assessment of images is a popular research topic due to its practical applications in various fields such as image recommendation, image ranking, and image search. Most current research on image aesthetic assessment relies on datasets composed primarily of user-taken photos in real-world scenarios, such as AVA and AADB. However, few studies have specifically addressed the automatic aesthetic assessment of artistic images.
-
-In this project, we propose a convolutional neural network model that automatically generates aesthetic scores for input artistic images. Our approach distinguishes itself by incorporating artistic theories and analyzing aesthetic features in artistic images from three dimensions: color, brightness, and contour. These features are integrated to produce an overall aesthetic score.
-
 ## Dataset
 
 We use a large-scale dataset of artistic images for aesthetic assessment, which consists of over 7,000 artistic images. Each image in the dataset is accompanied by an average aesthetic score assigned by users.
-
-## Key Features
-
-- **Three-Dimensional Feature Analysis**: Our model analyzes aesthetic features from three key dimensions:
-  - **Color**
-  - **Brightness**
-  - **Contour**
-
-## Model
-
-The convolutional neural network (CNN) architecture is designed to handle the complexities and abstractions of artistic images. By integrating the three-dimensional aesthetic features, our model provides a robust assessment of artistic image aesthetics.
 
 ## Results
 
