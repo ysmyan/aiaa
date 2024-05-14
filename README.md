@@ -25,7 +25,8 @@ The convolutional neural network (CNN) architecture is designed to handle the co
 
 ## Results
 
-Our model outperforms existing state-of-the-art image aesthetic assessment models, as demonstrated through comprehensive comparisons and evaluations.
+![Example Image](performance.png)
+The comparison results between the predicted scores by our network and the true user ratings for all images in the testing set. The predicted scores closely align with the true user ratings.
 
 ## Getting Started
 
